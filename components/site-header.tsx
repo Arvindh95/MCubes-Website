@@ -40,7 +40,7 @@ export function SiteHeader() {
           onClick={() => setOpen(false)}
         >
           <Logo className="h-11 transition-opacity duration-300 group-hover:opacity-90" />
-          <span className="hidden border-white/15 border-l pl-3 text-[10px] text-white/45 uppercase tracking-[0.24em] sm:block">
+          <span className="hidden border-white/15 border-l pl-3 text-[10px] text-white/50 uppercase tracking-[0.24em] sm:block">
             Consultancy
           </span>
         </Link>
@@ -78,6 +78,7 @@ export function SiteHeader() {
         </nav>
 
         <button
+          aria-controls="mobile-nav"
           aria-expanded={open}
           aria-label="Toggle navigation menu"
           className="rounded-lg p-2 text-white/70 transition-colors hover:bg-white/5 hover:text-white md:hidden"
@@ -93,6 +94,7 @@ export function SiteHeader() {
           <motion.nav
             animate={{ height: "auto", opacity: 1 }}
             aria-label="Mobile"
+            id="mobile-nav"
             className="overflow-hidden border-white/10 border-t bg-[#08080a]/95 backdrop-blur-xl md:hidden"
             exit={{ height: 0, opacity: 0 }}
             initial={{ height: 0, opacity: 0 }}

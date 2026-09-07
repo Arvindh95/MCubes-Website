@@ -58,7 +58,7 @@ export default function ConsultantsPage() {
                   {lead.name}
                 </h2>
                 <p className="mt-3 text-brand sm:text-lg">{lead.role}</p>
-                <p className="mt-2 text-[14px] text-white/40">{lead.credentials}</p>
+                <p className="mt-2 text-[14px] text-white/50">{lead.credentials}</p>
               </div>
             </div>
           </Reveal>
@@ -73,7 +73,7 @@ export default function ConsultantsPage() {
                       className="rounded-2xl border border-white/8 bg-white/2 p-6"
                       key={label}
                     >
-                      <dt className="flex items-center gap-2.5 text-[11px] text-white/35 uppercase tracking-[0.18em]">
+                      <dt className="flex items-center gap-2.5 text-[11px] text-white/55 uppercase tracking-[0.18em]">
                         <Icon className="h-4 w-4 text-brand" />
                         {label}
                       </dt>
@@ -131,7 +131,7 @@ export default function ConsultantsPage() {
                       {member.name}
                     </h3>
                     <p className="mt-1.5 text-[13.5px] text-brand">{member.role}</p>
-                    <p className="mt-3 text-[13px] text-white/40 leading-relaxed">
+                    <p className="mt-3 text-[13px] text-white/50 leading-relaxed">
                       {member.credentials}
                     </p>
                   </div>

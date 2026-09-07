@@ -188,7 +188,7 @@ function Card({ item, dimmed, onHoverStart, onHoverEnd }: CardProps) {
         <h3 className="font-heading font-semibold text-[15.5px] text-zinc-900 tracking-tight dark:text-white">
           {item.title}
         </h3>
-        <p className="text-[13.5px] text-zinc-500 leading-relaxed dark:text-white/45">
+        <p className="text-[13.5px] text-zinc-500 leading-relaxed dark:text-white/50">
           {item.description}
         </p>
       </div>

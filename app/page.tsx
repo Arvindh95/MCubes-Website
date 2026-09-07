@@ -126,7 +126,7 @@ export default function Home() {
                     <Mail className="h-4 w-4 text-brand" />
                   </span>
                   <span>
-                    <span className="block text-[11px] text-white/35 uppercase tracking-[0.18em]">
+                    <span className="block text-[11px] text-white/55 uppercase tracking-[0.18em]">
                       Email
                     </span>
                     <span className="text-[15px] text-white/70 transition-colors group-hover:text-brand">
@@ -141,7 +141,7 @@ export default function Home() {
                     <Phone className="h-4 w-4 text-brand" />
                   </span>
                   <span>
-                    <span className="block text-[11px] text-white/35 uppercase tracking-[0.18em]">
+                    <span className="block text-[11px] text-white/55 uppercase tracking-[0.18em]">
                       Phone
                     </span>
                     <span className="text-[15px] text-white/70 transition-colors group-hover:text-brand">
@@ -155,7 +155,7 @@ export default function Home() {
                   <MapPin className="h-4 w-4 text-brand" />
                 </span>
                 <span>
-                  <span className="block text-[11px] text-white/35 uppercase tracking-[0.18em]">
+                  <span className="block text-[11px] text-white/55 uppercase tracking-[0.18em]">
                     Location
                   </span>
                   <span className="text-[15px] text-white/70">
@@ -192,7 +192,7 @@ export default function Home() {
                   Email MCUBES Consultancy
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                 </a>
-                <p className="mt-6 text-[13px] text-white/35 leading-relaxed">
+                <p className="mt-6 text-[13px] text-white/55 leading-relaxed">
                   Prefer to talk? Call{" "}
                   <a
                     className="text-white/60 underline-offset-4 transition-colors hover:text-brand hover:underline"

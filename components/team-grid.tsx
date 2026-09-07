@@ -43,7 +43,7 @@ export function TeamGrid() {
               {member.name}
             </h3>
             <p className="mt-1.5 text-[13px] text-brand">{member.role}</p>
-            <p className="mt-3 text-[12.5px] text-white/40 leading-relaxed">
+            <p className="mt-3 text-[12.5px] text-white/50 leading-relaxed">
               {member.credentials}
             </p>
 

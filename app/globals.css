@@ -157,6 +157,15 @@
   html {
     scroll-behavior: auto;
   }
+  /* Motion's JS animations are handled by MotionConfig reducedMotion="user";
+     this covers the CSS-driven transitions and keyframes it does not own. */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 @utility eyebrow {

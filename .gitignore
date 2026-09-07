@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ECC agent tooling (local dev aid, not part of the site source)
+.claude/*
+!.claude/launch.json

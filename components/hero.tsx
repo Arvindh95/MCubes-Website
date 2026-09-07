@@ -97,7 +97,7 @@ export function Hero() {
                 <dt className="font-heading font-semibold text-2xl text-brand sm:text-3xl">
                   {s.value}
                 </dt>
-                <dd className="mt-1.5 text-[13px] text-white/40 leading-snug">
+                <dd className="mt-1.5 text-[13px] text-white/50 leading-snug">
                   {s.label}
                 </dd>
               </div>
